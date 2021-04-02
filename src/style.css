@@ -19,7 +19,10 @@ body {
     width: 100vw;
     height: 100vh;
     position: fixed;
-    background-color: var(--brown);
+    background-image: url('../assets/lord-of-the-rings-vs-game-of-thrones.jpg');
+    background-repeat: no-repeat;
+    background-size: 1440px 100vh;
+    background-position-x: -540px;
 }
 h1 {
     font-size: 5rem;
@@ -33,7 +36,7 @@ h2 {
 .wrapper {
     width: 75vw;
     height: 85vh;
-    max-width: 500px;
+    max-width: 800px;
     min-width: 300px;
     margin: 8vh auto;
     display: flex;
@@ -41,7 +44,7 @@ h2 {
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    background-color: rgba(89,81,79,0.7);
+    background-color: rgba(89,81,79,0.95);
 }
 .tittle-container {
     height: 120px;
@@ -54,7 +57,7 @@ h2 {
 .images-container {
     width: 80vw;
     height: 20vh;
-    max-width: 400px;
+    max-width: 500px;
     margin: 20px 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -71,11 +74,11 @@ h2 {
     text-align: center;
 }
 .form-container p {
-    font-size: 1.8rem;
+    font-size: 2.5rem;
 
 }
 .form-container .name-input {
-    width: 50vw;
+    width: 60vw;
     height: 40px;
     max-width: 300px;
     display: block;
@@ -86,14 +89,16 @@ h2 {
     background-color: var(--soft-white);
     font-family: 'Berkshire Swash', cursive;
     color: var(--dark-brown);
+    font-size: 1.6rem;
 }
 .form-container  .begin-button {
-    width: 120px;
+    width: 150px;
     height: 40px;
     margin: 10px 0;
     font-family: 'Berkshire Swash', cursive;
     color: var(--dark-brown);
     letter-spacing: 0.5px;
+    font-size: 1.8rem;
     border-radius: 5px;
     border: 0;
 }

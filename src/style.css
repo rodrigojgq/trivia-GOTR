@@ -19,11 +19,11 @@ html {
 body {
     width: 100vw;
     height: 100vh;
-    /* position: fixed; */
+    position: fixed;
     background-image: url('../assets/lord-of-the-rings-vs-game-of-thrones.jpg');
     background-repeat: no-repeat;
     background-size: 1440px 100vh;
-    background-position-x: -540px;
+    background-position-x: -520px;
 }
 h1 {
     font-size: 5rem;
@@ -33,6 +33,11 @@ h1 {
 h2 {
     font-size: 2.5rem;
     color: var(--soft-white);
+}
+a {
+    text-decoration: underline;
+    color: var(--brown);
+    letter-spacing: 0.5px;
 }
 .wrapper {
     width: 80vw;
@@ -76,7 +81,7 @@ h2 {
 }
 .form-container p {
     font-size: 2.5rem;
-
+    margin-bottom: 15px;
 }
 .form-container .name-input {
     width: 60vw;
@@ -137,10 +142,6 @@ h2 {
     font-size: 1.3rem;
     letter-spacing: 0.5px;
 }
-.change-name-container p a{
-    color: var(--brown);
-    text-decoration: underline;
-}
 /* Game Styles */
 header {
     width: 100vw;
@@ -172,6 +173,9 @@ header .timer-container span {
     font-size: 3rem;
     color:var(--darker-brown);
 }
+.game {
+    height: 77vh;
+}
 .answers-container {
     width: 70vw;
     height: 50vh;
@@ -201,13 +205,42 @@ header .timer-container span {
     width: 75vw;
     height: 10px;
     font-size: 1rem;
-    margin: 20px;
+    margin-top: 15px;
     color: var(--soft-yellow);
     text-align: center;
     letter-spacing: 0.5px;
 }
-.mention a {
-    text-decoration: underline;
-    color: var(--brown);
-    letter-spacing: 0.5px;
+/* Score Styles*/
+.score-container {
+    height: 100px;
 }
+.questions-container{
+    width: 70vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.questions-container .question {
+    width: 70vw;
+    height: 80px;
+    border-radius: 15px;
+    padding: 0 15px;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    align-items: center;
+    background-color: var(--soft-yellow);
+}
+.questions-container .question span {
+    color: var(--darker-brown);
+}
+.questions-container .question p {
+    font-size: 1.1rem;
+    color: var(--darker-brown);
+}
+.play-again {
+    font-size: 1.1rem;
+    margin-top: 15px;
+}
+

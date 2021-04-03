@@ -19,7 +19,7 @@ html {
 body {
     width: 100vw;
     height: 100vh;
-    position: fixed;
+    /* position: fixed; */
     background-image: url('../assets/lord-of-the-rings-vs-game-of-thrones.jpg');
     background-repeat: no-repeat;
     background-size: 1440px 100vh;
@@ -145,6 +145,7 @@ h2 {
 header {
     width: 100vw;
     height: 50px;
+    margin-bottom: 30px;
     padding: 0 20px;
     display: flex;
     flex-wrap: wrap;
@@ -183,7 +184,7 @@ header .timer-container span {
     width: 65vw;
     height: 80px;
     border-radius: 15px;
-    padding: 0 30px;
+    padding: 0 15px;
     display: grid;
     grid-template-columns: 1fr 5fr;
     align-items: center;
@@ -203,8 +204,10 @@ header .timer-container span {
     margin: 20px;
     color: var(--soft-yellow);
     text-align: center;
+    letter-spacing: 0.5px;
 }
 .mention a {
-    text-decoration: none;
+    text-decoration: underline;
     color: var(--brown);
+    letter-spacing: 0.5px;
 }

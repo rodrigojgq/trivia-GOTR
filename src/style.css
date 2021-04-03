@@ -34,11 +34,11 @@ h2 {
     color: var(--soft-white);
 }
 .wrapper {
-    width: 75vw;
+    width: 80vw;
     height: 85vh;
     max-width: 800px;
     min-width: 300px;
-    margin: 8vh auto;
+    margin: 2vh auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -58,7 +58,7 @@ h2 {
     width: 80vw;
     height: 20vh;
     max-width: 500px;
-    margin: 20px 0;
+    margin: 15px 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
     place-items: center;
@@ -101,4 +101,42 @@ h2 {
     font-size: 1.8rem;
     border-radius: 5px;
     border: 0;
+}
+/* Choice Styles */
+.question-container {
+    height: 80px;
+    width: 68vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.images-container button {
+    width: 120px;
+    height: 120px;
+    border-radius: 15px;
+    border: 0;
+}
+.images-container button:focus {
+    outline: 0;
+}
+.images-container .GOT-button {
+    background:transparent url('../assets/GOT.jpg') no-repeat;
+    background-size: cover;
+}
+.images-container .TLOTR-button {
+    background:transparent url('../assets/TLOTR.jpg') no-repeat;
+    background-size: cover;
+}
+.change-name-container {
+    width: 70vw;
+    text-align: center;
+}
+.change-name-container p {
+    font-size: 1.3rem;
+    letter-spacing: 0.5px;
+}
+.change-name-container p a{
+    color: var(--brown);
+    text-decoration: underline;
 }

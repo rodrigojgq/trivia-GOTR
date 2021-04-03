@@ -42,7 +42,7 @@ a {
 .wrapper {
     width: 80vw;
     height: 85vh;
-    max-width: 800px;
+    max-width: 750px;
     min-width: 300px;
     margin: 2vh auto;
     display: flex;
@@ -63,7 +63,7 @@ a {
 .images-container {
     width: 80vw;
     height: 20vh;
-    max-width: 500px;
+    max-width: 650px;
     margin: 15px 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -78,6 +78,9 @@ a {
     height: 150px;
     width: 75vw;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .form-container p {
     font-size: 2.5rem;
@@ -86,7 +89,7 @@ a {
 .form-container .name-input {
     width: 60vw;
     height: 40px;
-    max-width: 300px;
+    max-width: 400px;
     display: block;
     margin: 10px auto;
     padding: 10px;
@@ -107,6 +110,7 @@ a {
     font-size: 1.8rem;
     border-radius: 5px;
     border: 0;
+    background-color: var(--soft-yellow);
 }
 /* Choice Styles */
 .question-container {
@@ -244,3 +248,123 @@ header .timer-container span {
     margin-top: 15px;
 }
 
+@media only screen and (min-width: 426px)  {
+    body {
+        background-position-x: -430px;
+    }
+    h2 {
+        font-size: 2.7rem;
+    }
+    .images-container {
+        height: 27vh;
+    }
+    .images-container img {
+        width: 150px;
+        height: 150px;
+    }
+    .images-container button {
+        width: 150px;
+        height: 150px;
+    }
+    .change-name-container p {
+        font-size: 1.5rem;
+        letter-spacing: 0.7px;
+    }
+}
+
+@media only screen and (min-width: 590px)  {
+    h1 {
+        font-size: 6rem;
+        letter-spacing: 3px;
+        color: var(--soft-white);
+    }
+    h2 {
+        font-size: 3.5rem;
+        color: var(--soft-white);
+    }
+    .images-container img {
+        width: 160px;
+        height: 160px;
+    }
+    .images-container {
+        height: 22vh;
+    }
+    .form-container {
+        height: 180px;
+        margin-top: 20px;
+    }
+    .form-container p {
+        font-size: 3rem;
+    }
+    .form-container .name-input{
+        height: 50px;
+        font-size: 1.8rem;
+    }
+    .form-container .begin-button {
+        width: 200px;
+        height: 50px;
+        font-size: 2rem;
+    }
+    .images-container button {
+        width: 160px;
+        height: 160px;
+    }
+    .change-name-container p {
+        font-size: 1.7rem;
+        letter-spacing: 1px;
+    }
+}
+
+@media only screen and (min-width: 769px)  {
+    h1 {
+        font-size: 7rem;
+        letter-spacing: 5px;
+        color: var(--soft-white);
+    }
+    h2 {
+        font-size: 4rem;
+        color: var(--soft-white);
+    }
+    .tittle-container {
+        height: 150px;
+    }
+    body {
+        background-size: 100vw 100vh;
+        background-position-x: 0px;
+    }
+    .images-container {
+        height: 28vh;
+    }
+    .form-container {
+        height: 180px;
+        margin-top: 20px;
+    }
+    .images-container img {
+        width: 250px;
+        height: 250px;
+    }
+    .form-container {
+        height: 200px;
+        margin-top: 20px;
+    }
+    .form-container p {
+        font-size: 4rem;
+    }
+    .form-container .name-input{
+        height: 60px;
+        font-size: 2rem;
+    }
+    .form-container .begin-button {
+        width: 250px;
+        height: 60px;
+        font-size: 2.2rem;
+    }
+    .images-container button {
+        width: 250px;
+        height: 250px;
+    }
+    .change-name-container p {
+        font-size: 2rem;
+        letter-spacing: 1.5px;
+    }
+}

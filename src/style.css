@@ -11,6 +11,7 @@ html {
     --soft-white: #F2E8DC;
     --brown: #A66953;
     --dark-brown: #59514F;
+    --darker-brown: #1C1717;
     font-size: 62.5%;
     font-family: 'Berkshire Swash', cursive;
     color: var(--soft-white);
@@ -96,7 +97,7 @@ h2 {
     height: 40px;
     margin: 10px 0;
     font-family: 'Berkshire Swash', cursive;
-    color: var(--dark-brown);
+    color: var(--darker-brown);
     letter-spacing: 0.5px;
     font-size: 1.8rem;
     border-radius: 5px;
@@ -139,4 +140,71 @@ h2 {
 .change-name-container p a{
     color: var(--brown);
     text-decoration: underline;
+}
+/* Game Styles */
+header {
+    width: 100vw;
+    height: 50px;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+header .image-container{
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+}
+header .image-container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+header .timer-container {
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+header .timer-container span {
+    font-size: 3rem;
+    color:var(--darker-brown);
+}
+.answers-container {
+    width: 70vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.answers-container .answer {
+    width: 65vw;
+    height: 80px;
+    border-radius: 15px;
+    padding: 0 30px;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    align-items: center;
+    background-color: var(--soft-yellow);
+}
+.answers-container .answer span {
+    color: var(--darker-brown);
+}
+.answers-container .answer p {
+    font-size: 1.1rem;
+    color: var(--darker-brown);
+}
+.mention {
+    width: 75vw;
+    height: 10px;
+    font-size: 1rem;
+    margin: 20px;
+    color: var(--soft-yellow);
+    text-align: center;
+}
+.mention a {
+    text-decoration: none;
+    color: var(--brown);
 }

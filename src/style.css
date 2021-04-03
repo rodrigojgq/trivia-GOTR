@@ -36,7 +36,7 @@ h2 {
 }
 a {
     text-decoration: underline;
-    color: var(--brown);
+    color: var(--soft-blue);
     letter-spacing: 0.5px;
 }
 .wrapper {
@@ -44,7 +44,7 @@ a {
     height: 85vh;
     max-width: 750px;
     min-width: 300px;
-    margin: 2vh auto;
+    margin: 3vh auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -171,11 +171,14 @@ header .image-container img{
 header .timer-container {
     width: 100px;
     height: 50px;
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
 }
 header .timer-container span {
     font-size: 3rem;
     color:var(--darker-brown);
+    line-height: 3.5rem;
 }
 .game {
     height: 77vh;
@@ -183,6 +186,7 @@ header .timer-container span {
 .answers-container {
     width: 70vw;
     height: 50vh;
+    max-width: 650px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -190,7 +194,8 @@ header .timer-container span {
 }
 .answers-container .answer {
     width: 65vw;
-    height: 80px;
+    height: 70px;
+    max-width: 600px;
     border-radius: 15px;
     padding: 0 15px;
     display: grid;
@@ -216,11 +221,13 @@ header .timer-container span {
 }
 /* Score Styles*/
 .score-container {
-    height: 100px;
+    height: 90px;
+    text-align: center;
 }
 .questions-container{
     width: 70vw;
     height: 60vh;
+    max-width: 650px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -228,7 +235,8 @@ header .timer-container span {
 }
 .questions-container .question {
     width: 70vw;
-    height: 80px;
+    height: 60px;
+    max-width: 600px;
     border-radius: 15px;
     padding: 0 15px;
     display: grid;
@@ -240,17 +248,20 @@ header .timer-container span {
     color: var(--darker-brown);
 }
 .questions-container .question p {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     color: var(--darker-brown);
 }
 .play-again {
     font-size: 1.1rem;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 @media only screen and (min-width: 426px)  {
     body {
         background-position-x: -430px;
+    }
+    h1 {
+        font-size: 5.2rem;
     }
     h2 {
         font-size: 2.7rem;
@@ -269,6 +280,40 @@ header .timer-container span {
     .change-name-container p {
         font-size: 1.5rem;
         letter-spacing: 0.7px;
+    }
+    header {
+        height: 60px;
+    }
+    header .image-container{
+        height: 70px;
+        width: 70px;
+    }
+    header .timer-container span {
+        font-size: 3.5rem;
+    }
+    .answers-container .answer {
+        height: 80px;
+    }
+    .answers-container .answer p{
+        font-size: 1.3rem;
+    }
+    [class^="flaticon-"]:before{
+        font-size: 2.4rem;
+    }
+    .mention {
+        font-size: 1.3rem;
+    }
+    .score-container {
+        height: 100px;
+    }
+    .questions-container .question {
+        height: 60px;
+    }
+    .questions-container .question p {
+        font-size: 1.4rem;
+    }
+    .play-again {
+        font-size: 1.3rem;
     }
 }
 
@@ -312,6 +357,28 @@ header .timer-container span {
     .change-name-container p {
         font-size: 1.7rem;
         letter-spacing: 1px;
+    }
+    .answers-container .answer {
+        padding: 0 40px;
+    }
+    .answers-container .answer p{
+        font-size: 1.5rem;
+    }
+    [class^="flaticon-"]:before{
+        font-size: 2.6rem;
+    }
+    .score-container {
+        height: 110px;
+    }
+    .questions-container .question {
+        height: 65px;
+        padding: 0 40px;
+    }
+    .questions-container .question p {
+        font-size: 1.6rem;
+    }
+    .play-again {
+        font-size: 1.5rem;
     }
 }
 
@@ -366,5 +433,44 @@ header .timer-container span {
     .change-name-container p {
         font-size: 2rem;
         letter-spacing: 1.5px;
+    }
+    header {
+        height: 100px;
+        justify-content: space-around;
+        margin: 0;
+    }
+    header .image-container{
+        height: 100px;
+        width: 100px;
+    }
+    header .timer-container span {
+        font-size: 5rem;
+        color: var(--darker-brown);
+    }
+    .answers-container .answer {
+        padding: 0 50px;
+    }
+    .answers-container .answer p{
+        font-size: 1.7rem;
+    }
+    [class^="flaticon-"]:before{
+        font-size: 3rem;
+    }
+    .mention {
+        font-size: 1.6rem;
+    }
+    .score-container {
+        height: 130px;
+    }
+    .questions-container .question {
+        height: 70px;
+        padding: 0 50px;
+    }
+    .questions-container .question p {
+        font-size: 1.8rem;
+    }
+    .play-again {
+        font-size: 1.6rem;
+        margin: 0;
     }
 }

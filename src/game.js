@@ -2,7 +2,12 @@ let category = ""
 
 function setCategory(){
     category = localStorage.getItem("category");
-    console.log(category);
+    if (category === "GOT"){
+        document.getElementById("header-img").src = "../assets/GOT.jpg";
+    }else if( category === "TLOTR") {
+        document.getElementById("header-img").src = "../assets/TLOTR.jpg";
+    }
 }
+
 
 setCategory()

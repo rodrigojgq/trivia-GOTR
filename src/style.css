@@ -115,7 +115,8 @@ a {
 /* Choice Styles */
 .question-container {
     height: 80px;
-    width: 68vw;
+    width: 45vw;
+    max-width: 650px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -130,16 +131,17 @@ a {
 .images-container button:focus {
     outline: 0;
 }
-.images-container .GOT-button {
+.images-container #GOT-button {
     background:transparent url('../assets/GOT.jpg') no-repeat;
     background-size: cover;
 }
-.images-container .TLOTR-button {
+.images-container #TLOTR-button {
     background:transparent url('../assets/TLOTR.jpg') no-repeat;
     background-size: cover;
 }
 .change-name-container {
     width: 70vw;
+    margin-top: 10px;
     text-align: center;
 }
 .change-name-container p {

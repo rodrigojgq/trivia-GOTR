@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Trivia-GOTR</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="base.styles.css">
 </head>
 <body>
   <main>
@@ -20,10 +19,10 @@
         <img src="../assets/TLOTR.jpg" alt="Logo del Señor de los Anillos">
       </section>
       <section class="form-container">
-        <form action="">
+        <form action="choice.html" id="form">
           <label for="name">
             <p>¿Cual es tu nombre?</p>
-            <input type="text" id="name" placeholder="Tu nombre" autocomplete="name" required class="name-input" class="name-input">
+            <input type="text" id="player-name" placeholder="Tu nombre" autocomplete="name" required class="name-input" class="name-input">
           </label>
           <input type="submit" value="Comencemos!" class="begin-button">
         </form>
@@ -33,5 +32,7 @@
       <a href="score.html">score</a>
     </section>
   </main>
+
+  <script src="main.js"></script>
 </body>
 </html>

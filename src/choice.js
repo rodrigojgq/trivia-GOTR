@@ -1,6 +1,7 @@
 let playerName = '';
 
 function gameValues() {
+    localStorage.setItem("questions","")
     localStorage.setItem("category", "");
     localStorage.setItem("score", "0")
 }

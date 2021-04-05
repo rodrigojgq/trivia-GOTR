@@ -115,7 +115,7 @@ a {
 /* Choice Styles */
 .question-container {
     height: 80px;
-    width: 45vw;
+    width: 57vw;
     max-width: 650px;
     display: flex;
     align-items: center;
@@ -184,6 +184,9 @@ header .timer-container span {
 }
 .game {
     height: 77vh;
+}
+#question {
+    font-size: 2.1rem;
 }
 .answers-container {
     width: 70vw;

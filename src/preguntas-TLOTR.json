@@ -1,0 +1,57 @@
+[
+   
+    {
+        "question": "¿Quién tomó el anillo único luego que el Señor Oscuro fue derrotado?",
+        "answers": [
+            "Isildur",
+            "Aragon",
+            "Gollum",
+            "Elrond"
+        ]
+    },
+    {
+        "question": "¿Dónde se forma la Comunidad del Anillo?",
+        "answers": [
+            "Rivendell",
+            "Minas Tirith",
+            "Abismo de Helm",
+            "Lothlórien"
+        ]
+    },
+    {
+        "question": "¿Cuál es el nombre del Rey de Rohan?",
+        "answers": [
+            "Theoden",
+            "Theodred",
+            "Eomer",
+            "Eowyn"
+        ]
+    },
+    {
+        "question": "¿A qué dirección le pide ver Gandalf a Aragon a su regreso al amanecer del quinto día?",
+        "answers": [
+            "Este",
+            "Oeste",
+            "Norte",
+            "No se lo dice"
+        ]
+    },
+    {
+        "question": "¿Qué ejercito convoca Aragon con la espada de Elendil",
+        "answers": [
+            "Al ejercito de los muertos",
+            "Al ejercito de Rohan",
+            "Al ejercito de Gondor",
+            "A un ejercito de elfos y enanos"
+        ]
+    },
+    {
+        "question": "¡Cuantos meses les toma a los Hobbits regresar a la Comarca?",
+        "answers": [
+            "Trece meses",
+            "Cinco meses",
+            "Siete meses",
+            "Catorce meses"
+        ]
+    }
+]

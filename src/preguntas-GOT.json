@@ -1,0 +1,56 @@
+[
+    {
+        "question": "¿Con quien debía casarse originalmente Robert Barateon",
+        "answers": [
+            "Lyana Stark",
+            "Elia Martell",
+            "Catelyn Tully",
+            "Cersei Lanister"
+        ]
+    },
+    {
+        "question": "¿Cuál fue la causa de la muerte de Khal Drogo ",
+        "answers": [
+            "Una herida abierta",
+            "Una estampida de caballos",
+            "Veneno",
+            "Decapitación en batalla"
+        ]
+    },
+    {
+        "question": "¿Quienes se casan en la Boda Roja?",
+        "answers": [
+            "Edmure Tully y Roslin Frey",
+            "Joffrey Barateon y Margery Tyrell",
+            "Tyrion Lannister y Sansa Stark",
+            "Jon Snow y Daenerys Targeryan"
+        ]
+    },
+    {
+        "question": "¿Quién es el escudero de Brienne cuando deja King's Landing?",
+        "answers": [
+            "Podrick",
+            "Gendry",
+            "Olivar",
+            "Gregor Clegane"
+        ]
+    },
+    {
+        "question": "¿Quienes crearon al Rey de la Noche?",
+        "answers": [
+            "Los hijos del Bosque",
+            "Los primeros hombres",
+            "El Dios de la Muerte",
+            "El Señor de la Luz"
+        ]
+    },
+    {
+        "question": "¿Cuál es el verdadero nombre de Jon Snow?",
+        "answers": [
+            "Aeagon Targeryan",
+            "Rheagal Targeryan",
+            "Jon Targeryan",
+            "Aerys Targeryan"
+        ]
+    }
+]

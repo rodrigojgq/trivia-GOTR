@@ -5,6 +5,7 @@ let rightAnswers = new Array(6);
 let questionNumber = 0;
 let score = 0;
 let checkedQuestions = new Array(6);
+let timer = 30
 function setCategory(){
     category = localStorage.getItem("category");
     if (category === "GOT"){
@@ -88,6 +89,7 @@ function checkAnswer() {
     }
     checkedQuestions[questionNumber]=checkArray;
     questionNumber++;
+    timer = 30;
     if (questionNumber<6){
         showQuestions(questions[questionNumber]["question"], questions[questionNumber]["answers"]);
     }else{
@@ -97,7 +99,19 @@ function checkAnswer() {
     }
 }
 
+function countdown(){
+    if (timer >= 10){
+        document.getElementById("countdown").innerHTML = "0:"+timer;
+    }else {
+        document.getElementById("countdown").innerHTML = "0:0"+timer;
+    }
+    if(timer == -1) {
+        alert("El tiempo se acabo, ¿Por qué tanta duda? Inténtalo de nuevo!");
+        location.href = './choice.html';
+    }
+    timer -= 1;
+}
+
 setCategory();
 listQuestions();
-
-
+setInterval(countdown,1000);

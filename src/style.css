@@ -115,7 +115,7 @@ a {
 /* Choice Styles */
 .question-container {
     height: 80px;
-    width: 57vw;
+    width: 60vw;
     max-width: 650px;
     display: flex;
     align-items: center;
@@ -186,7 +186,7 @@ header .timer-container span {
     height: 77vh;
 }
 #question {
-    font-size: 2.1rem;
+    font-size: 2rem;
 }
 .answers-container {
     width: 70vw;
@@ -212,7 +212,7 @@ header .timer-container span {
     color: var(--darker-brown);
 }
 .answers-container .answer p {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     color: var(--darker-brown);
 }
 .mention {
@@ -296,11 +296,14 @@ header .timer-container span {
     header .timer-container span {
         font-size: 3.5rem;
     }
+    #question {
+        font-size: 2.4rem;
+    }
     .answers-container .answer {
         height: 80px;
     }
     .answers-container .answer p{
-        font-size: 1.3rem;
+        font-size: 1.8rem;
     }
     [class^="flaticon-"]:before{
         font-size: 2.4rem;
@@ -363,11 +366,14 @@ header .timer-container span {
         font-size: 1.7rem;
         letter-spacing: 1px;
     }
+    #question {
+        font-size: 2.6rem;
+    }
     .answers-container .answer {
         padding: 0 40px;
     }
     .answers-container .answer p{
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     [class^="flaticon-"]:before{
         font-size: 2.6rem;
@@ -452,11 +458,14 @@ header .timer-container span {
         font-size: 5rem;
         color: var(--darker-brown);
     }
+    #question {
+        font-size: 3rem;
+    }
     .answers-container .answer {
         padding: 0 50px;
     }
     .answers-container .answer p{
-        font-size: 1.7rem;
+        font-size: 2.4rem;
     }
     [class^="flaticon-"]:before{
         font-size: 3rem;

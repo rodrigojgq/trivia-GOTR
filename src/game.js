@@ -75,7 +75,7 @@ function showQuestions(question, answers){
 function clickAnswer(id) {
     selectedOption = document.getElementById("answer-"+id).querySelector("p").innerHTML;
     document.getElementById("answer-"+id).style.backgroundColor = "#AAADBF";
-    setTimeout(checkAnswer,500);
+    setTimeout(checkAnswer,300);
 }
 
 function checkAnswer() {

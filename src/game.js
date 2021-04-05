@@ -73,7 +73,8 @@ function showQuestions(question, answers){
 
 function clickAnswer(id) {
     selectedOption = document.getElementById("answer-"+id).querySelector("p").innerHTML;
-    checkAnswer();
+    document.getElementById("answer-"+id).style.backgroundColor = "#AAADBF";
+    setTimeout(checkAnswer,500);
 }
 
 function checkAnswer() {
